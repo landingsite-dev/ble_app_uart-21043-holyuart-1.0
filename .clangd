@@ -1,0 +1,43 @@
+CompileFlags:
+  CompilationDatabase: .
+  Compiler: /opt/homebrew/bin/arm-none-eabi-gcc
+  Add:
+    - -mcpu=cortex-m4
+    - -mthumb
+    - -mfloat-abi=hard
+    - -mfpu=fpv4-sp-d16
+    - -std=c99
+    - -DBOARD_PCA10040
+    - -DBSP_DEFINES_ONLY
+    - -DCONFIG_GPIO_AS_PINRESET
+    - -DFLOAT_ABI_HARD
+    - -DNRF52
+    - -DNRF52832_XXAA
+    - -DNRF52_PAN_74
+    - -D__HEAP_SIZE=8192
+    - -D__STACK_SIZE=8192
+    - -I.
+    - -Ipca10040/blank/config
+    - -I/Users/wanghao/.nRF5_SDK/nRF5_SDK_15.3.0_59ac345/components
+    - -I/Users/wanghao/.nRF5_SDK/nRF5_SDK_15.3.0_59ac345/components/boards
+    - -I/Users/wanghao/.nRF5_SDK/nRF5_SDK_15.3.0_59ac345/components/libraries/util
+    - -I/Users/wanghao/.nRF5_SDK/nRF5_SDK_15.3.0_59ac345/components/libraries/strerror
+    - -I/Users/wanghao/.nRF5_SDK/nRF5_SDK_15.3.0_59ac345/components/libraries/log
+    - -I/Users/wanghao/.nRF5_SDK/nRF5_SDK_15.3.0_59ac345/components/libraries/log/src
+    - -I/Users/wanghao/.nRF5_SDK/nRF5_SDK_15.3.0_59ac345/components/libraries/delay
+    - -I/Users/wanghao/.nRF5_SDK/nRF5_SDK_15.3.0_59ac345/components/libraries/balloc
+    - -I/Users/wanghao/.nRF5_SDK/nRF5_SDK_15.3.0_59ac345/components/libraries/ringbuf
+    - -I/Users/wanghao/.nRF5_SDK/nRF5_SDK_15.3.0_59ac345/components/libraries/memobj
+    - -I/Users/wanghao/.nRF5_SDK/nRF5_SDK_15.3.0_59ac345/components/libraries/atomic
+    - -I/Users/wanghao/.nRF5_SDK/nRF5_SDK_15.3.0_59ac345/components/libraries/atomic_fifo
+    - -I/Users/wanghao/.nRF5_SDK/nRF5_SDK_15.3.0_59ac345/components/libraries/experimental_section_vars
+    - -I/Users/wanghao/.nRF5_SDK/nRF5_SDK_15.3.0_59ac345/components/drivers_nrf/nrf_soc_nosd
+    - -I/Users/wanghao/.nRF5_SDK/nRF5_SDK_15.3.0_59ac345/components/toolchain/cmsis/include
+    - -I/Users/wanghao/.nRF5_SDK/nRF5_SDK_15.3.0_59ac345/modules/nrfx
+    - -I/Users/wanghao/.nRF5_SDK/nRF5_SDK_15.3.0_59ac345/modules/nrfx/mdk
+    - -I/Users/wanghao/.nRF5_SDK/nRF5_SDK_15.3.0_59ac345/modules/nrfx/hal
+    - -I/Users/wanghao/.nRF5_SDK/nRF5_SDK_15.3.0_59ac345/integration/nrfx
+    - -I/Users/wanghao/.nRF5_SDK/nRF5_SDK_15.3.0_59ac345/external/fprintf
+    - -I/Users/wanghao/.nRF5_SDK/nRF5_SDK_15.3.0_59ac345/external/segger_rtt
+Diagnostics:
+  UnusedIncludes: None

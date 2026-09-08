@@ -1,0 +1,95 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Editor / IDE
+*.swp
+*.swo
+*~
+.idea/
+*.code-workspace
+# Keep .vscode/c_cpp_properties.json for IntelliSense; ignore local junk only
+.vscode/*
+!.vscode/c_cpp_properties.json
+
+# Local SDK path override (optional)
+sdk.env
+
+# Keil MDK / uVision
+_build/
+**/_build/
+*.o
+*.d
+*.crf
+*.axf
+*.elf
+*.map
+*.lst
+*.lnp
+*.dep
+*.htm
+*.build_log.htm
+*.uvguix.*
+*.bak
+*.Bak
+*.__i
+*.iex
+*.sct
+!*.sct.ini
+Object/
+Listings/
+DebugConfig/
+RTE/_*/
+
+# Keil local options (machine-specific); keep *.uvprojx
+*.uvoptx
+
+# SEGGER Embedded Studio
+Output/
+*_Debug/
+*_Release/
+*.emSession
+*.jlink
+
+# IAR EWARM
+settings/
+Debug/
+Release/
+Exe/
+Obj/
+List/
+*.dep
+*.ewt
+*.ewd
+
+# GCC / make
+*.out
+*.bin
+*.a
+*.lib
+*.su
+*.i
+*.ii
+**/build/
+
+# Build artifacts (keep prebuilt images under hex/)
+*.hex
+!hex/*.hex
+
+# J-Link / debugger
+JLinkLog.txt
+JLinkSettings.ini
+*.jlink
+
+# Nordic / SoftDevice local dumps
+*.log
+*.tmp
+*.temp
+
+# Python / tooling (if used locally)
+__pycache__/
+*.pyc
+.venv/
+venv/

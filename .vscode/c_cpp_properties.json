@@ -1,0 +1,47 @@
+{
+  "configurations": [
+    {
+      "name": "nRF52832 GH3026",
+      "includePath": [
+        "${workspaceFolder}",
+        "${workspaceFolder}/pca10040/blank/config",
+        "/Users/wanghao/.nRF5_SDK/nRF5_SDK_15.3.0_59ac345/components",
+        "/Users/wanghao/.nRF5_SDK/nRF5_SDK_15.3.0_59ac345/components/boards",
+        "/Users/wanghao/.nRF5_SDK/nRF5_SDK_15.3.0_59ac345/components/libraries/util",
+        "/Users/wanghao/.nRF5_SDK/nRF5_SDK_15.3.0_59ac345/components/libraries/strerror",
+        "/Users/wanghao/.nRF5_SDK/nRF5_SDK_15.3.0_59ac345/components/libraries/log",
+        "/Users/wanghao/.nRF5_SDK/nRF5_SDK_15.3.0_59ac345/components/libraries/log/src",
+        "/Users/wanghao/.nRF5_SDK/nRF5_SDK_15.3.0_59ac345/components/libraries/delay",
+        "/Users/wanghao/.nRF5_SDK/nRF5_SDK_15.3.0_59ac345/components/libraries/balloc",
+        "/Users/wanghao/.nRF5_SDK/nRF5_SDK_15.3.0_59ac345/components/libraries/ringbuf",
+        "/Users/wanghao/.nRF5_SDK/nRF5_SDK_15.3.0_59ac345/components/libraries/memobj",
+        "/Users/wanghao/.nRF5_SDK/nRF5_SDK_15.3.0_59ac345/components/libraries/atomic",
+        "/Users/wanghao/.nRF5_SDK/nRF5_SDK_15.3.0_59ac345/components/libraries/atomic_fifo",
+        "/Users/wanghao/.nRF5_SDK/nRF5_SDK_15.3.0_59ac345/components/libraries/experimental_section_vars",
+        "/Users/wanghao/.nRF5_SDK/nRF5_SDK_15.3.0_59ac345/components/drivers_nrf/nrf_soc_nosd",
+        "/Users/wanghao/.nRF5_SDK/nRF5_SDK_15.3.0_59ac345/components/toolchain/cmsis/include",
+        "/Users/wanghao/.nRF5_SDK/nRF5_SDK_15.3.0_59ac345/modules/nrfx",
+        "/Users/wanghao/.nRF5_SDK/nRF5_SDK_15.3.0_59ac345/modules/nrfx/mdk",
+        "/Users/wanghao/.nRF5_SDK/nRF5_SDK_15.3.0_59ac345/modules/nrfx/hal",
+        "/Users/wanghao/.nRF5_SDK/nRF5_SDK_15.3.0_59ac345/integration/nrfx",
+        "/Users/wanghao/.nRF5_SDK/nRF5_SDK_15.3.0_59ac345/external/fprintf",
+        "/Users/wanghao/.nRF5_SDK/nRF5_SDK_15.3.0_59ac345/external/segger_rtt"
+      ],
+      "defines": [
+        "BOARD_PCA10040",
+        "BSP_DEFINES_ONLY",
+        "CONFIG_GPIO_AS_PINRESET",
+        "FLOAT_ABI_HARD",
+        "NRF52",
+        "NRF52832_XXAA",
+        "NRF52_PAN_74",
+        "__HEAP_SIZE=8192",
+        "__STACK_SIZE=8192"
+      ],
+      "cStandard": "c99",
+      "compilerPath": "/opt/homebrew/bin/arm-none-eabi-gcc",
+      "intelliSenseMode": "gcc-arm"
+    }
+  ],
+  "version": 4
+}
